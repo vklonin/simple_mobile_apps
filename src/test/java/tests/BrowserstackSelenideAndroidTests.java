@@ -29,6 +29,7 @@ public class BrowserstackSelenideAndroidTests extends TestBase {
     }
 
     @Test
+    @Tag("selenide_android_bs2")
     @DisplayName("Check settings menu navigation")
     void settingsTest() {
         step("push '...' and 'Settings'", () -> {
